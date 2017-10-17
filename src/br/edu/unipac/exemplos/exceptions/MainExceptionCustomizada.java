@@ -7,6 +7,8 @@ public class MainExceptionCustomizada {
 			olaMundo();
 		} catch (MinhaException e) {
 			e.printStackTrace();
+		}finally {
+			System.out.println("Sempre irá ser executado");
 		}
 	}
 	
